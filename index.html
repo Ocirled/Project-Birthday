@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lynn Birthday</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Michroma&family=Poppins&display=swap" rel="stylesheet" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Jquery -->
+    <script src="code.jquery.com_jquery-3.7.1.min.js"></script>
+  </head>
+  <body class="font-Poppins bg-main-color">
+    <div class="intro text-center text-grey-color h-screen flex items-center justify-center">
+      <div class="intro-content">
+        <div class="16th flex justify-center">
+          <img src="icons/icon16th.png" width="100px" alt="" data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000" />
+        </div>
+        <h1 class="mt-[60px] font-bold text-4xl" data-aos="fade-up" data-aos-duration="1500">Happy level up <span class="block text-blue-color">Sherlyn Aurelia Tjoewin!!</span></h1>
+        <p class="text-white-color mt-2" data-aos="zoom-in" data-aos-delay="1600">Ayo kita have fun sama websitenya..</p>
+
+        <div class="intro-arrow-down mx-auto mt-[100px] bg-white-color rounded-full w-fit animate-bounce">
+          <a href="#song" class="page-scroll"><img src="icons/icons8-arrow-down-50.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="song mx-auto mt-[100px] text-center text-grey-color" id="song">
+      <p class="text-3xl text-white-color" data-aos="zoom-in" data-aos-duration="1200">Pilih dulu lagu nya yoww..</p>
+      <p class="text-blue-color">mau yang mana bebas</p>
+      <p class="text-center px-4 mt-[20px]">*tolong lagu nya jangan ditumpuk yahh😂</p>
+      <audio controls class="mx-auto mt-[40px]" data-aos="fade-up" data-aos-duration="1200">
+        <source src="Song/Jamrud - Selamat Ulang Tahun.mp3" type="audio/mpeg" />
+      </audio>
+      <p class="font-bold mt-1 mb-[40px]" data-aos="fade-up" data-aos-duration="1200">Selamat ulang tahun -Jamrud</p>
+
+      <audio controls class="mx-auto mt-[40px]" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+        <source src="Song/Lagu Ulang Tahun Anak Selamat Ulang Tahun.mp3" type="audio/mpeg" />
+      </audio>
+      <p class="font-bold mt-1 mb-[40px]" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">Happy birthday v. anak-anak</p>
+
+      <audio controls class="mx-auto" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+        <source src="Song/y2mate.com - Timi Zhuo 卓依婷  生日快樂 Sheng Ri Kuai Le_320kbps.mp3" type="audio/mpeg" />
+      </audio>
+      <p class="font-bold mt-1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400" data-aos-offset="100">生日快乐 -卓依婷</p>
+
+      <p class="text-center px-4 mt-[40px] text-blue-color">Lanjut scroll kalau udah pilih.</p>
+      <div class="song-arrow-down mx-auto mt-[15px] bg-white-color rounded-full w-fit animate-bounce">
+        <a href="#candle" class="page-scroll">
+          <img src="icons/icons8-arrow-down-50.png" alt="" />
+        </a>
+      </div>
+    </div>
+    <form action="">
+      <div class="candle mt-[150px] text-center text-white-color" id="candle">
+        <h1 class="text-3xl" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1200">Gas tiup lilin dongg~</h1>
+        <p class="text-blue-color mt-1">Tuliskan harapan mu dan tiup lilinnya</p>
+        <p class="text-sm" data-aos="fade-up" data-aos-duration="1100">*harapannya bersifat anonim, <br />w ngga tau yang Lynn tulis apa. Jadi aman aja.</p>
+        <label for="pesan" class="block mt-[50px]">Isi harapan Lynn:</label>
+        <textarea class="block mx-auto bg-main-color border border-white-color p-4" name="pesan" id="pesan" cols="30" rows="10"></textarea>
+        <button type="submit" class="bg-blue-color mt-2 rounded-md p-2">Kirim</button>
+        <p class="text-center text-grey-color mt-2" data-aos="fade-up" data-aos-duration="1200">Semoga tercapai ya harapannya Lynn.</p>
+        <h1 class="mt-[80px] text-xl" data-aos="zoom-in-up" data-aos-delay="500">Udah selesai? tiup lilin lahh, apa lagii</h1>
+        <p class="text-blue-color">kalau udah tiup scroll bawah yah</p>
+        <div class="candle-container mx-auto border-white w-48 relative">
+          <img src="icons/icon lilin api.png" data-aos="zoom-in" data-aos-duration="1200" width="200px" alt="" />
+          <a href="#lilin2" class="page-scroll">
+            <div class="candle-arrow-down absolute top-[140px] right-[-50px] animate-bounce">
+              <img src="icons/icons8-arrow-down-50.png" class="bg-white-color rounded-full" alt="" />
+            </div>
+          </a>
+          <div class="candle2-img relative mt-[300px]">
+            <img class="mt-[150px] mx-auto block" src="icons/pngegg.png" alt="" />
+            <img class="-mt-[120px]" src="icons/icon lilin no api.png" id="lilin2" alt="" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200" />
+          </div>
+          <img class="-mt-[440px] mx-auto block absolute left-[55px] rotate-90" src="icons/pngegg.png" alt="" />
+        </div>
+        <p>Yeyy, Selamat ulang tahun Lynn🥳</p>
+      </div>
+    </form>
+    <div class="cake mt-[150px] text-white-color text-center">
+      <h1 class="text-3xl" data-aos="fade-up" data-aos-duration="1100">Saatnya makan kueee</h1>
+      <img class="mx-auto mt-[40px]" src="icons/cake full.png" width="100px" alt="" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200" />
+      <p class="text-blue-color mt-2" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400">loh kok ilang seperempat?!</p>
+      <img class="mt-[200px] w-16 mx-auto" src="icons/cake seperempat.png" id="cake2" alt="" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200" />
+      <p class="mt-2 text-blue-color" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400">Tenanggg, udah ku potong tadi😒</p>
+      <p data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500" data-aos-offset="100">nih makan sendiri, jangan manja.</p>
+    </div>
+    <div class="outro mt-[250px] text-white-color px-4">
+      <h1 class="text-3xl text-center text-white-color" data-aos="fade-up" data-aos-duration="1200">Yey udah siappp</h1>
+      <h3 class="text-blue-color mt-7 text-lg" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">Pesan w untuk Lynn:</h3>
+      <p class="text-grey-color" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+        Cie yang udah umur 16, tahun depan udah seventeen aja nih, ngga tau lagi dah mau buat hadiah apa. Oh ya kurasa Lyn suka bet ya sama langit?
+      </p>
+      <img src="icons/langit estetik.jpg" width="400px" class="mx-auto mt-2" alt="" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500" />
+      <p class="text-right text-white-color">*fotonya dari om gugel hehe..</p>
+      <p class="mt-3 text-grey-color" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+        Kuliat Lyn juga sering sedih lalu post sw hahaa, tapi nggapapa lah itu berarti lyn masih ada hati nurani dan masih peduli. Tapi sedih terlalu banyak juga ngga bagus loh yaaa.Semangat terus buat Lynn, jangan mudah menyerah, OK?. Lyn
+        orangnya kuat, w tau itu.
+      </p>
+      <p class="text-grey-color mt-2" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">Semoga apa yang Lyn ingin capai, tercapai dengan baik. Itu aja sih ngga tau mau tambah apa lagi haha.</p>
+
+      <h2 class="text-center text-blue-color text-xl mt-[100px]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <span class="text-white-color">Sekali lagi,</span><br />
+        Selamat ulang tahun Sherlyn, <br /><span class="block text-2xl mt-1 font-semibold" data-aos="fade-down" data-aos-delay="400" data-aos-duration="1200">Wish You All The Best.</span>
+      </h2>
+    </div>
+
+    <footer class="mt-[200px] text-center bg-grey-color">
+      <p class="text-main-color p-3">Dibuat oleh <span class="text-main-color font-bold">Delrico</span> dengan niat.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>
